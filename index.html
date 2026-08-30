@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sister 💗</title>
+
+
+<style>
+
+/* =====================================================
+   BASIC RESET
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    min-height: 100vh;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    overflow-x: hidden;
+
+    color: #7a174e;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffd1e3,
+            #ffb6d5,
+            #ffc8dd,
+            #ffe0ec,
+            #ffb7d5
+        );
+
+    background-size: 400% 400%;
+
+    animation:
+        pinkBackground 12s ease infinite;
+}
+
+
+/* =====================================================
+   BACKGROUND ANIMATION
+===================================================== */
+
+@keyframes pinkBackground {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* =====================================================
+   MAIN CONTAINER
+===================================================== */
+
+.container {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* =====================================================
+   MAIN CARD
+===================================================== */
+
+.card {
+
+    width: 100%;
+
+    max-width: 850px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    border-radius: 35px;
+
+    background:
+        rgba(255,255,255,0.58);
+
+    backdrop-filter:
+        blur(20px);
+
+    -webkit-backdrop-filter:
+        blur(20px);
+
+    border:
+        2px solid
+        rgba(255,255,255,0.8);
+
+    box-shadow:
+        0 25px 70px
+        rgba(190,35,105,0.25);
+
+    animation:
+        cardAppear 1.2s ease;
+}
+
+
+@keyframes cardAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(60px)
+            scale(0.85);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0)
+            scale(1);
+    }
+}
+
+
+/* =====================================================
+   TOP HEART
+===================================================== */
+
+.top-heart {
+
+    font-size: 55px;
+
+    animation:
+        heartBeat 1.2s infinite;
+}
+
+
+@keyframes heartBeat {
+
+    0%,100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+h1 {
+
+    margin-top: 10px;
+
+    font-size:
+        clamp(
+            2.5rem,
+            10vw,
+            5.5rem
+        );
+
+    font-weight: 800;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff1493,
+            #ff69b4,
+            #d81b78,
+            #ff1493
+        );
+
+    background-size: 200%;
+
+    -webkit-background-clip: text;
+
+    color: transparent;
+
+    animation:
+        titleAnimation 3s linear infinite;
+}
+
+
+@keyframes titleAnimation {
+
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}
+
+
+/* =====================================================
+   SUBTITLE
+===================================================== */
+
+.subtitle {
+
+    margin-top: 15px;
+
+    font-size:
+        clamp(
+            1rem,
+            4vw,
+            1.35rem
+        );
+
+    line-height: 1.7;
+
+    color: #8e245d;
+}
+
+
+/* =====================================================
+   NAME
+===================================================== */
+
+.name {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding:
+        12px 28px;
+
+    border-radius: 50px;
+
+    color: white;
+
+    font-size: 1.1rem;
+
+    font-weight: bold;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff1493,
+            #ff69b4
+        );
+
+    box-shadow:
+        0 8px 25px
+        rgba(255,20,147,0.3);
+}
+
+
+/* =====================================================
+   INTRO MESSAGE
+===================================================== */
+
+.message {
+
+    margin-top: 30px;
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    background:
+        rgba(255,255,255,0.55);
+
+    color: #78184d;
+
+    line-height: 1.8;
+
+    font-size: 1.05rem;
+
+    box-shadow:
+        0 10px 30px
+        rgba(190,35,105,0.1);
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.btn {
+
+    margin-top: 30px;
+
+    padding:
+        16px 30px;
+
+    border: none;
+
+    border-radius: 50px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff1493,
+            #ff69b4,
+            #ff1493
+        );
+
+    background-size: 200%;
+
+    color: white;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 30px
+        rgba(255,20,147,0.35);
+
+    transition:
+        0.3s ease;
+
+    animation:
+        buttonGlow 2s infinite;
+}
+
+
+.btn:hover {
+
+    transform:
+        translateY(-5px)
+        scale(1.05);
+
+    box-shadow:
+        0 15px 40px
+        rgba(255,20,147,0.5);
+}
+
+
+.btn:active {
+
+    transform:
+        scale(0.95);
+}
+
+
+.btn:disabled {
+
+    opacity: 0.8;
+
+    cursor: default;
+}
+
+
+@keyframes buttonGlow {
+
+    50% {
+
+        box-shadow:
+            0 0 35px
+            rgba(255,20,147,0.65);
+    }
+}
+
+
+/* =====================================================
+   HIDDEN SECTIONS
+===================================================== */
+
+.hidden {
+    display: none;
+}
+
+
+.show {
+
+    display: block;
+
+    animation:
+        sectionShow 1s ease;
+}
+
+
+@keyframes sectionShow {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(50px)
+            scale(0.9);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0)
+            scale(1);
+    }
+}
+
+
+/* =====================================================
+   PHOTO SECTION
+===================================================== */
+
+.photo-section {
+
+    margin-top: 45px;
+
+    padding: 25px 15px;
+
+    border-radius: 30px;
+
+    background:
+        rgba(255,255,255,0.4);
+
+    border:
+        2px solid
+        rgba(255,255,255,0.6);
+}
+
+
+.photo-section h2 {
+
+    color: #d81b78;
+
+    font-size:
+        clamp(
+            1.8rem,
+            6vw,
+            2.5rem
+        );
+}
+
+
+.photo-section p {
+
+    margin-top: 8px;
+
+    color: #8e245d;
+}
+
+
+/* =====================================================
+   PHOTOS
+===================================================== */
+
+.photos {
+
+    margin-top: 25px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+.photo {
+
+    padding: 8px;
+
+    background: white;
+
+    border-radius: 22px;
+
+    box-shadow:
+        0 15px 35px
+        rgba(180,30,100,0.25);
+
+    animation:
+        photoAppear 1s ease;
+}
+
+
+.photo:nth-child(2) {
+
+    animation-delay:
+        0.25s;
+}
+
+
+.photo img {
+
+    width: 100%;
+
+    height: 430px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+    display: block;
+
+    transition:
+        0.4s ease;
+}
+
+
+.photo:hover img {
+
+    transform:
+        scale(1.04);
+}
+
+
+@keyframes photoAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            scale(0.5)
+            rotate(-10deg);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            scale(1)
+            rotate(0);
+    }
+}
+
+
+/* =====================================================
+   CAKE SECTION
+===================================================== */
+
+.cake-section {
+
+    margin-top: 45px;
+
+    padding: 30px 15px;
+
+    border-radius: 30px;
+
+    background:
+        rgba(255,255,255,0.48);
+
+    box-shadow:
+        0 15px 40px
+        rgba(190,35,105,0.15);
+}
+
+
+.cake-section h2 {
+
+    color: #d81b78;
+
+    font-size:
+        clamp(
+            1.7rem,
+            6vw,
+            2.5rem
+        );
+}
+
+
+.cake-section p {
+
+    margin-top: 8px;
+
+    color: #8e245d;
+}
+
+
+/* =====================================================
+   CAKE AREA
+===================================================== */
+
+.cake-area {
+
+    height: 320px;
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+
+    margin-top: 10px;
+}
+
+
+/* =====================================================
+   CAKE
+===================================================== */
+
+.birthday-cake {
+
+    position: relative;
+
+    width: 270px;
+
+    height: 150px;
+
+    transition:
+        1s ease;
+
+    z-index: 5;
+}
+
+
+/* =====================================================
+   CAKE LAYERS
+===================================================== */
+
+.cake-layer {
+
+    position: absolute;
+
+    left: 0;
+
+    width: 270px;
+
+    border-radius:
+        12px 12px 20px 20px;
+
+    box-shadow:
+        inset 0 -8px 0
+        rgba(180,30,90,0.08);
+}
+
+
+/* Bottom */
+
+.layer-bottom {
+
+    bottom: 0;
+
+    height: 65px;
+
+    background:
+        linear-gradient(
+            #ff8fc4,
+            #ff5da8
+        );
+}
+
+
+/* Middle */
+
+.layer-middle {
+
+    bottom: 48px;
+
+    height: 55px;
+
+    background:
+        linear-gradient(
+            #ffb0d2,
+            #ff75b5
+        );
+}
+
+
+/* Top */
+
+.layer-top {
+
+    bottom: 88px;
+
+    height: 55px;
+
+    background:
+        linear-gradient(
+            #ffd0e3,
+            #ff9fc8
+        );
+
+    border-radius:
+        50% 50% 15px 15px;
+}
+
+
+/* =====================================================
+   CREAM
+===================================================== */
+
+.cream-line {
+
+    position: absolute;
+
+    width: 270px;
+
+    height: 18px;
+
+    bottom: 43px;
+
+    background: white;
+
+    border-radius: 50%;
+
+    z-index: 4;
+}
+
+
+.cream-line.second {
+
+    bottom: 83px;
+
+    z-index: 5;
+}
+
+
+/* =====================================================
+   CAKE TOP
+===================================================== */
+
+.cake-top {
+
+    position: absolute;
+
+    width: 270px;
+
+    height: 45px;
+
+    top: -5px;
+
+    left: 0;
+
+    background: white;
+
+    border-radius: 50%;
+
+    z-index: 6;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+/* =====================================================
+   CANDLES
+===================================================== */
+
+.candles {
+
+    position: absolute;
+
+    top: -65px;
+
+    left: 50%;
+
+    transform:
+        translateX(-50%);
+
+    display: flex;
+
+    gap: 28px;
+
+    z-index: 10;
+}
+
+
+.candle {
+
+    width: 14px;
+
+    height: 55px;
+
+    border-radius: 5px;
+
+    background:
+        repeating-linear-gradient(
+            45deg,
+            #ff1493,
+            #ff1493 7px,
+            #ffffff 7px,
+            #ffffff 13px
+        );
+
+    position: relative;
+}
+
+
+/* =====================================================
+   FLAME
+===================================================== */
+
+.flame {
+
+    position: absolute;
+
+    top: -31px;
+
+    left: -5px;
+
+    font-size: 23px;
+
+    animation:
+        flameMove
+        0.5s
+        infinite alternate;
+}
+
+
+@keyframes flameMove {
+
+    from {
+
+        transform:
+            scale(1)
+            rotate(-5deg);
+    }
+
+    to {
+
+        transform:
+            scale(1.25)
+            rotate(5deg);
+    }
+}
+
+
+/* =====================================================
+   KNIFE
+===================================================== */
+
+.knife {
+
+    position: absolute;
+
+    top: 25px;
+
+    right: 8%;
+
+    font-size: 55px;
+
+    transform:
+        rotate(-35deg);
+
+    z-index: 20;
+
+    cursor: pointer;
+
+    transition:
+        1s ease;
+}
+
+
+.knife.cutting {
+
+    top: 105px;
+
+    right: 42%;
+
+    transform:
+        rotate(-75deg);
+}
+
+
+/* =====================================================
+   CAKE CUT
+===================================================== */
+
+.birthday-cake.cut {
+
+    transform:
+        scaleX(0.82);
+}
+
+
+.birthday-cake.cut .flame {
+
+    opacity: 0;
+
+    animation: none;
+}
+
+
+/* =====================================================
+   CAKE MESSAGE
+===================================================== */
+
+.cake-message {
+
+    margin-top: 10px;
+
+    font-size: 1.1rem;
+
+    font-weight: bold;
+
+    color: #e91e8c;
+}
+
+
+/* =====================================================
+   LETTER
+===================================================== */
+
+.letter {
+
+    margin-top: 40px;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    background:
+        #fff7fb;
+
+    color: #8a245b;
+
+    line-height: 1.9;
+
+    box-shadow:
+        0 15px 35px
+        rgba(180,30,100,0.2);
+}
+
+
+.letter h2 {
+
+    color: #e91e8c;
+
+    margin-bottom: 15px;
+
+    font-size: 2rem;
+}
+
+
+/* =====================================================
+   FINAL SURPRISE
+===================================================== */
+
+.final {
+
+    margin-top: 40px;
+
+    padding: 40px 25px;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff69b4,
+            #ff1493
+        );
+
+    color: white;
+
+    box-shadow:
+        0 20px 50px
+        rgba(200,30,110,0.35);
+
+    animation:
+        finalGlow 2s infinite alternate;
+}
+
+
+.final h2 {
+
+    font-size:
+        clamp(
+            2rem,
+            8vw,
+            3rem
+        );
+
+    margin-bottom: 20px;
+}
+
+
+.final p {
+
+    line-height: 1.9;
+
+    font-size: 1.1rem;
+}
+
+
+@keyframes finalGlow {
+
+    from {
+
+        box-shadow:
+            0 20px 40px
+            rgba(200,30,110,0.3);
+    }
+
+    to {
+
+        box-shadow:
+            0 20px 70px
+            rgba(255,20,147,0.6);
+    }
+}
+
+
+/* =====================================================
+   FLOATING HEARTS
+===================================================== */
+
+.heart {
+
+    position: fixed;
+
+    bottom: -60px;
+
+    pointer-events: none;
+
+    z-index: 50;
+
+    animation:
+        heartFloat
+        linear
+        forwards;
+}
+
+
+@keyframes heartFloat {
+
+    0% {
+
+        transform:
+            translateY(0)
+            rotate(0);
+
+        opacity: 0;
+    }
+
+    10% {
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(-110vh)
+            rotate(360deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =====================================================
+   CONFETTI
+===================================================== */
+
+.confetti {
+
+    position: fixed;
+
+    top: -30px;
+
+    width: 10px;
+
+    height: 18px;
+
+    z-index: 999;
+
+    pointer-events: none;
+
+    animation:
+        confettiFall
+        linear
+        forwards;
+}
+
+
+@keyframes confettiFall {
+
+    0% {
+
+        transform:
+            translateY(0)
+            rotate(0);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(110vh)
+            rotate(720deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =====================================================
+   BALLOONS
+===================================================== */
+
+.balloon {
+
+    position: fixed;
+
+    bottom: -100px;
+
+    font-size: 55px;
+
+    z-index: 40;
+
+    pointer-events: none;
+
+    animation:
+        balloonUp
+        linear
+        forwards;
+}
+
+
+@keyframes balloonUp {
+
+    0% {
+
+        transform:
+            translateY(0)
+            rotate(-5deg);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(-120vh)
+            rotate(10deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =====================================================
+   SPARKLES
+===================================================== */
+
+.sparkle {
+
+    position: fixed;
+
+    pointer-events: none;
+
+    z-index: 30;
+
+    animation:
+        sparkleAnimation
+        3s
+        linear
+        forwards;
+}
+
+
+@keyframes sparkleAnimation {
+
+    0% {
+
+        transform:
+            scale(0);
+
+        opacity: 0;
+    }
+
+    50% {
+
+        transform:
+            scale(1.5);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            scale(0)
+            translateY(-100px);
+
+        opacity: 0;
+    }
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+    margin-top: 35px;
+
+    color: #8e245d;
+
+    line-height: 1.8;
+
+    font-size: 0.95rem;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .container {
+
+        padding: 10px;
+    }
+
+
+    .card {
+
+        padding:
+            30px 14px;
+
+        border-radius: 25px;
+    }
+
+
+    .top-heart {
+
+        font-size: 45px;
+    }
+
+
+    .message {
+
+        padding: 20px;
+
+        font-size:
+            0.98rem;
+    }
+
+
+    .name {
+
+        font-size:
+            1rem;
+
+        padding:
+            10px 18px;
+    }
+
+
+    .btn {
+
+        width: 100%;
+
+        padding:
+            16px 10px;
+    }
+
+
+    /* Photos one below another */
+
+    .photos {
+
+        grid-template-columns:
+            1fr;
+
+        gap: 25px;
+    }
+
+
+    .photo img {
+
+        height: 430px;
+    }
+
+
+    /* Smaller cake */
+
+    .cake-area {
+
+        height: 290px;
+    }
+
+
+    .birthday-cake {
+
+        width: 210px;
+
+        height: 125px;
+    }
+
+
+    .cake-layer {
+
+        width: 210px;
+    }
+
+
+    .cake-top {
+
+        width: 210px;
+    }
+
+
+    .cream-line {
+
+        width: 210px;
+    }
+
+
+    .candles {
+
+        gap: 19px;
+    }
+
+
+    .knife {
+
+        right: 2%;
+
+        font-size: 45px;
+    }
+
+
+    .knife.cutting {
+
+        right: 38%;
+
+        top: 100px;
+    }
+
+
+    .letter {
+
+        padding: 22px;
+    }
+
+
+    .final {
+
+        padding: 30px 20px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<!-- =================================================
+     MAIN CARD
+================================================= -->
+
+<div class="container">
+
+<div class="card">
+
+
+    <!-- TOP HEART -->
+
+    <div class="top-heart">
+        💗
+    </div>
+
+
+    <!-- TITLE -->
+
+    <h1>
+        Happy Birthday!
+    </h1>
+
+
+    <p class="subtitle">
+
+        To the most beautiful,
+        caring and amazing sister! 🌸✨
+
+    </p>
+
+
+    <!-- NAME -->
+
+    <div class="name">
+
+        👑 My Beautiful Sister 👑
+
+    </div>
+
+
+    <!-- MESSAGE -->
+
+    <div class="message">
+
+        💌 <strong>My Birthday Wish For You</strong>
+
+        <br><br>
+
+        Happy Birthday to my wonderful sister! 🥳💕
+
+        <br><br>
+
+        You are not just my sister,
+        you are my best friend,
+        my happiness and one of
+        the most precious people
+        in my life. 💗
+
+        <br><br>
+
+        May your life always be filled
+        with love, laughter, happiness
+        and success. 🌷✨
+
+        <br><br>
+
+        May every dream in your heart
+        come true.
+
+        <br><br>
+
+        Keep smiling,
+        keep shining,
+        and always be the amazing
+        person you are! 👑💕
+
+        <br><br>
+
+        Love you forever, Sister! 🫶💖
+
+    </div>
+
+
+    <!-- =================================================
+         FIRST SURPRISE BUTTON
+    ================================================= -->
+
+    <button
+        class="btn"
+        id="surpriseButton"
+        onclick="openSurprise()">
+
+        🎁 Open Your Surprise 🎁
+
+    </button>
+
+
+
+    <!-- =================================================
+         PHOTO SECTION
+    ================================================= -->
+
+    <div
+        id="photoSection"
+        class="hidden">
+
+
+        <div class="photo-section">
+
+
+            <h2>
+                📸 Beautiful Memories 💗
+            </h2>
+
+
+            <p>
+                Some special memories
+                just for you! 🌸✨
+            </p>
+
+
+            <div class="photos">
+
+
+                <!-- PHOTO 1 -->
+<div class="photo">
+        <img src="sis4.jpeg" alt="Memory 3">
+    </div>
+
+                <div class="photo">
+
+                    <img
+                        src="sis1.jpeg"
+                        alt="Beautiful Sister Memory">
+
+                </div>
+
+
+                <!-- PHOTO 2 -->
+
+                <div class="photo">
+
+                    <img
+                        src="sis2.jpeg"
+                        alt="Beautiful Sister Memory">
+
+                </div>
+<div class="photo">
+        <img src="sis3.jpeg" alt="Memory 3">
+    </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             CAKE CUTTING
+        ================================================= -->
+
+        <div class="cake-section">
+
+
+            <h2>
+                🎂 Time To Cut The Cake! 🎂
+            </h2>
+
+
+            <p>
+                Make a wish and cut your birthday cake! 💗✨
+            </p>
+
+
+            <div class="cake-area">
+
+
+                <!-- Knife -->
+
+                <div
+                    id="knife"
+                    class="knife"
+                    onclick="cutTheCake()">
+
+                    🔪
+
+                </div>
+
+
+                <!-- CAKE -->
+
+                <div
+                    id="birthdayCake"
+                    class="birthday-cake">
+
+
+                    <!-- Candles -->
+
+                    <div class="candles">
+
+
+                        <div class="candle">
+
+                            <span class="flame">
+                                🔥
+                            </span>
+
+                        </div>
+
+
+                        <div class="candle">
+
+                            <span class="flame">
+                                🔥
+                            </span>
+
+                        </div>
+
+
+                        <div class="candle">
+
+                            <span class="flame">
+                                🔥
+                            </span>
+
+                        </div>
+
+
+                        <div class="candle">
+
+                            <span class="flame">
+                                🔥
+                            </span>
+
+                        </div>
+
+
+                        <div class="candle">
+
+                            <span class="flame">
+                                🔥
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- Cake top -->
+
+                    <div class="cake-top">
+
+                        🍓　🍓　🍓
+
+                    </div>
+
+
+                    <!-- Cake layers -->
+
+                    <div
+                        class="cake-layer layer-top">
+                    </div>
+
+
+                    <div class="cream-line">
+                    </div>
+
+
+                    <div
+                        class="cake-layer layer-middle">
+                    </div>
+
+
+                    <div
+                        class="cream-line second">
+                    </div>
+
+
+                    <div
+                        class="cake-layer layer-bottom">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div
+                id="cakeMessage"
+                class="cake-message">
+
+                👇 Click the knife or button to cut the cake!
+
+            </div>
+
+
+            <button
+                class="btn"
+                id="cutButton"
+                onclick="cutTheCake()">
+
+                🔪 Cut The Birthday Cake 🎂
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         SECRET LETTER
+    ================================================= -->
+
+    <div
+        id="letterSection"
+        class="hidden">
+
+
+        <div class="letter">
+
+
+            <h2>
+                💌 A Secret Letter For You
+            </h2>
+
+
+            <p>
+
+                Dear Sister,
+
+                <br><br>
+
+                You are one of the most
+                precious people in my life. 💗
+
+                <br><br>
+
+                Thank you for all the laughter,
+                memories, fights, fun and
+                beautiful moments we share.
+
+                <br><br>
+
+                I hope this birthday brings
+                you everything your heart
+                wishes for. 🌷✨
+
+                <br><br>
+
+                May you always smile,
+                always shine and always
+                be surrounded by people
+                who love you.
+
+                <br><br>
+
+                May all your dreams come true
+                and may your future be brighter
+                than ever! 🌟
+
+                <br><br>
+
+                Happy Birthday once again! 🎂💕
+
+                <br><br>
+
+                Love you forever! ❤️
+
+            </p>
+
+
+        </div>
+
+
+        <!-- FINAL BUTTON -->
+
+        <button
+            class="btn"
+            onclick="finalSurprise()">
+
+            💖 One Last Surprise 💖
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         FINAL SURPRISE
+    ================================================= -->
+
+    <div
+        id="finalSection"
+        class="hidden">
+
+
+        <div class="final">
+
+
+            <h2>
+                👑 You Are Special! 👑
+            </h2>
+
+
+            <p>
+
+                You deserve all the happiness
+                in the world! 💗
+
+                <br><br>
+
+                Keep smiling.
+                Keep shining.
+                Keep being YOU! ✨
+
+                <br><br>
+
+                🎂 HAPPY BIRTHDAY 🎂
+
+                <br><br>
+
+                🌸 May all your dreams come true 🌸
+
+                <br><br>
+
+                💖 I LOVE YOU SISTER 💖
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        Made with 💗 especially for you
+
+        <br>
+
+        🎀 Happy Birthday Princess 🎀
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+<script>
+
+/* =====================================================
+   CONFETTI
+===================================================== */
+
+function createConfetti() {
+
+    const colors = [
+
+        "#ff1493",
+        "#ff69b4",
+        "#ffb6c1",
+        "#ffc0cb",
+        "#ffffff",
+        "#e91e63",
+        "#f48fb1"
+
+    ];
+
+
+    for (
+        let i = 0;
+        i < 180;
+        i++
+    ) {
+
+        const confetti =
+            document.createElement("div");
+
+
+        confetti.className =
+            "confetti";
+
+
+        confetti.style.left =
+            Math.random() * 100 + "vw";
+
+
+        confetti.style.background =
+            colors[
+                Math.floor(
+                    Math.random() *
+                    colors.length
+                )
+            ];
+
+
+        confetti.style.animationDuration =
+            (2 + Math.random() * 4)
+            + "s";
+
+
+        confetti.style.animationDelay =
+            Math.random() * 1.5
+            + "s";
+
+
+        confetti.style.width =
+            (5 + Math.random() * 8)
+            + "px";
+
+
+        confetti.style.height =
+            (8 + Math.random() * 15)
+            + "px";
+
+
+        document.body.appendChild(
+            confetti
+        );
+
+
+        setTimeout(
+            () => confetti.remove(),
+            7000
+        );
+
+    }
+
+}
+
+
+/* =====================================================
+   HEARTS
+===================================================== */
+
+function createHeart() {
+
+    const heart =
+        document.createElement("div");
+
+
+    heart.className =
+        "heart";
+
+
+    const hearts = [
+
+        "💗",
+        "💖",
+        "💕",
+        "💓",
+        "💞",
+        "💘",
+        "🌸",
+        "✨"
+
+    ];
+
+
+    heart.innerHTML =
+        hearts[
+            Math.floor(
+                Math.random() *
+                hearts.length
+            )
+        ];
+
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+
+    heart.style.fontSize =
+        (18 + Math.random() * 25)
+        + "px";
+
+
+    heart.style.animationDuration =
+        (5 + Math.random() * 5)
+        + "s";
+
+
+    document.body.appendChild(
+        heart
+    );
+
+
+    setTimeout(
+        () => heart.remove(),
+        11000
+    );
+
+}
+
+
+/* =====================================================
+   BALLOONS
+===================================================== */
+
+function createBalloons() {
+
+    const balloons = [
+
+        "🎈",
+        "🎈",
+        "🎈",
+        "🎈",
+        "🎀",
+        "💗",
+        "🎈",
+        "🎈"
+
+    ];
+
+
+    for (
+        let i = 0;
+        i < 18;
+        i++
+    ) {
+
+        const balloon =
+            document.createElement("div");
+
+
+        balloon.className =
+            "balloon";
+
+
+        balloon.innerHTML =
+            balloons[
+                Math.floor(
+                    Math.random() *
+                    balloons.length
+                )
+            ];
+
+
+        balloon.style.left =
+            Math.random() * 100 + "vw";
+
+
+        balloon.style.animationDuration =
+            (5 + Math.random() * 5)
+            + "s";
+
+
+        balloon.style.animationDelay =
+            Math.random() * 2 + "s";
+
+
+        document.body.appendChild(
+            balloon
+        );
+
+
+        setTimeout(
+            () => balloon.remove(),
+            10000
+        );
+
+    }
+
+}
+
+
+/* =====================================================
+   SPARKLES
+===================================================== */
+
+function createSparkle() {
+
+    const sparkle =
+        document.createElement("div");
+
+
+    sparkle.className =
+        "sparkle";
+
+
+    sparkle.innerHTML =
+        "✨";
+
+
+    sparkle.style.left =
+        Math.random() * 100 + "vw";
+
+
+    sparkle.style.top =
+        Math.random() * 100 + "vh";
+
+
+    sparkle.style.fontSize =
+        (15 + Math.random() * 25)
+        + "px";
+
+
+    document.body.appendChild(
+        sparkle
+    );
+
+
+    setTimeout(
+        () => sparkle.remove(),
+        3000
+    );
+
+}
+
+
+/* =====================================================
+   OPEN FIRST SURPRISE
+===================================================== */
+
+function openSurprise() {
+
+    const section =
+        document.getElementById(
+            "photoSection"
+        );
+
+
+    const button =
+        document.getElementById(
+            "surpriseButton"
+        );
+
+
+    /* Show photos */
+
+    section.classList.remove(
+        "hidden"
+    );
+
+    section.classList.add(
+        "show"
+    );
+
+
+    /* Change button */
+
+    button.innerHTML =
+        "💗 Surprise Opened! 💗";
+
+
+    button.disabled = true;
+
+
+    /* Effects */
+
+    createConfetti();
+
+    createBalloons();
+
+
+    setTimeout(
+        createConfetti,
+        600
+    );
+
+
+    setTimeout(
+        createConfetti,
+        1200
+    );
+
+
+    /* Scroll */
+
+    setTimeout(
+        function() {
+
+            section.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "center"
+
+            });
+
+        },
+        400
+    );
+
+}
+
+
+/* =====================================================
+   CUT CAKE
+===================================================== */
+
+let cakeAlreadyCut = false;
+
+
+function cutTheCake() {
+
+    if (cakeAlreadyCut) {
+        return;
+    }
+
+
+    cakeAlreadyCut = true;
+
+
+    const cake =
+        document.getElementById(
+            "birthdayCake"
+        );
+
+
+    const knife =
+        document.getElementById(
+            "knife"
+        );
+
+
+    const button =
+        document.getElementById(
+            "cutButton"
+        );
+
+
+    const message =
+        document.getElementById(
+            "cakeMessage"
+        );
+
+
+    /* Move knife */
+
+    knife.classList.add(
+        "cutting"
+    );
+
+
+    message.innerHTML =
+        "🔪 Cutting the cake... 🎂💗";
+
+
+    /* Cut cake */
+
+    setTimeout(
+        function() {
+
+            cake.classList.add(
+                "cut"
+            );
+
+        },
+        600
+    );
+
+
+    /* BIG CONFETTI */
+
+    setTimeout(
+        function() {
+
+            createConfetti();
+
+            createConfetti();
+
+            createBalloons();
+
+        },
+        900
+    );
+
+
+    setTimeout(
+        createConfetti,
+        1500
+    );
+
+
+    setTimeout(
+        createConfetti,
+        2200
+    );
+
+
+    /* Change button */
+
+    setTimeout(
+        function() {
+
+            button.innerHTML =
+                "🎂 Cake Cut Successfully! 💗";
+
+            message.innerHTML =
+                "🎉 YAY! The birthday cake has been cut! 🎂💗";
+
+        },
+        1400
+    );
+
+
+    /* Show letter */
+
+    setTimeout(
+        function() {
+
+            const letter =
+                document.getElementById(
+                    "letterSection"
+                );
+
+
+            letter.classList.remove(
+                "hidden"
+            );
+
+
+            letter.classList.add(
+                "show"
+            );
+
+
+            letter.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "center"
+
+            });
+
+        },
+        2200
+    );
+
+}
+
+
+/* =====================================================
+   FINAL SURPRISE
+===================================================== */
+
+function finalSurprise() {
+
+    const final =
+        document.getElementById(
+            "finalSection"
+        );
+
+
+    final.classList.remove(
+        "hidden"
+    );
+
+
+    final.classList.add(
+        "show"
+    );
+
+
+    /* HUGE CELEBRATION */
+
+    createConfetti();
+
+    createConfetti();
+
+    createConfetti();
+
+    createBalloons();
+
+
+    setTimeout(
+        createConfetti,
+        500
+    );
+
+
+    setTimeout(
+        createConfetti,
+        1000
+    );
+
+
+    setTimeout(
+        createConfetti,
+        1500
+    );
+
+
+    setTimeout(
+        function() {
+
+            final.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "center"
+
+            });
+
+        },
+        400
+    );
+
+}
+
+
+/* =====================================================
+   CONTINUOUS HEARTS
+===================================================== */
+
+setInterval(
+    createHeart,
+    700
+);
+
+
+/* =====================================================
+   CONTINUOUS SPARKLES
+===================================================== */
+
+setInterval(
+    createSparkle,
+    900
+);
+
+
+/* =====================================================
+   INITIAL CONFETTI
+===================================================== */
+
+window.addEventListener(
+    "load",
+    function() {
+
+        setTimeout(
+            createConfetti,
+            700
+        );
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>
